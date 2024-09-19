@@ -1,0 +1,64 @@
+/* General Body Background */
+body {
+  background-color: #f4f4f9; /* Light grey background for the whole page */
+  color: #333; /* Dark text for readability */
+  font-family: Arial, sans-serif; /* Clean, sans-serif font */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Header Background */
+header {
+  background-color: #007bff; /* Blue background for the header */
+  color: #fff; /* White text color */
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Main Content Background */
+main {
+  background-color: #ffffff; /* White background for the main content */
+  padding: 2rem;
+  margin: 1rem auto;
+  max-width: 1200px; /* Max width for larger screens */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Footer Background */
+footer {
+  background-color: #343a40; /* Dark background for the footer */
+  color: #fff; /* White text color */
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Flexbox Layout for Centering Content */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  min-height: 100vh; /* Full viewport height */
+  padding: 1rem;
+}
+
+/* Align Items in a Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+  gap: 1rem; /* Space between items */
+}
+
+/* Center Text */
+.text-center {
+  text-align: center;
+}
+
+/* Responsive Container */
+.responsive-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
